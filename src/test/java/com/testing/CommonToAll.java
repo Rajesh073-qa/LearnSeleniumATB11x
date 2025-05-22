@@ -12,7 +12,8 @@ import org.testng.annotations.BeforeTest;
 import java.time.Duration;
 
 public class CommonToAll {
-    public WebDriver driver;
+
+    public EdgeDriver driver;
 
     public void openBrowser(WebDriver driver, String url) {
         driver.get(url);
@@ -33,6 +34,7 @@ public class CommonToAll {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeInSeconds));
         wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath(xpath)), text));
     }
+
 
     @BeforeTest
     public void setUp() {
@@ -59,8 +61,8 @@ public class CommonToAll {
             Thread.sleep(time);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-
-
         }
     }
+
+
 }
