@@ -1,4 +1,4 @@
-package com.testing.ex08_File_Upload;
+package com.testing.ex11_File_Upload;
 
 import com.testing.CommonToAll;
 import org.openqa.selenium.By;

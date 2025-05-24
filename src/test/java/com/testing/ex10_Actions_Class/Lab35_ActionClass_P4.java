@@ -1,4 +1,4 @@
-package com.testing.ex07_Actions_Class;
+package com.testing.ex10_Actions_Class;
 
 import com.testing.CommonToAll;
 import org.openqa.selenium.Keys;
