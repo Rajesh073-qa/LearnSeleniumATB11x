@@ -127,5 +127,5 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 For queries or discussions, reach out via:
-- LinkedIn: [Your Profile](https://linkedin.com/in/pramoddutta)
-- GitHub: [Your GitHub](https://github.com/pramoddutta)
+- LinkedIn: [LinkedIn Profile](www.linkedin.com/in/rajeshqa)
+- GitHub: [GitHub Profile](https://github.com/Rajesh073-qa)
