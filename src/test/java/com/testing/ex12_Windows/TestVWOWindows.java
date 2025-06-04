@@ -1,6 +1,8 @@
 package com.testing.ex12_Windows;
 
 import com.testing.CommonToAll;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,8 +15,11 @@ import java.util.List;
 import java.util.Set;
 
 public class TestVWOWindows extends CommonToAll {
+    Logger logger = LogManager.getLogger();
+
     @Test
     public void vwo() {
+        logger.error("NOT executed");
         driver.get("https://app.vwo.com/#/test/ab/13/heatmaps/1?token=eyJhY2NvdW50X2lkIjo2NjY0MDAsImV4cGVyaW1lbnRfaWQiOjEzLCJjcmVhdGVkX29uIjoxNjcxMjA1MDUwLCJ0eXBlIjoiY2FtcGFpZ24iLCJ2ZXJzaW9uIjoxLCJoYXNoIjoiY2IwNzBiYTc5MDM1MDI2N2QxNTM5MTBhZDE1MGU1YTUiLCJzY29wZSI6IiIsImZybiI6ZmFsc2V9&isHttpsOnly=1");
         driver.manage().window().maximize();
         waitForJVM(5000);

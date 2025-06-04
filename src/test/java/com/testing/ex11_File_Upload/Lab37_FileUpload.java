@@ -17,5 +17,6 @@ public class Lab37_FileUpload extends CommonToAll {
         uploadFileInput.sendKeys(path_file);
         driver.findElement(By.name("submit")).click();
 
+
     }
 }
